@@ -6,7 +6,7 @@ export function createUser(user: IUser) {
     username,
     full_name,
     email,
-    password_hash,
+    password,
     profile_picture,
     is_admin,
     address,
@@ -17,11 +17,15 @@ export function createUser(user: IUser) {
       username,
       full_name,
       email,
-      password_hash,
+      password,
       profile_picture,
       is_admin,
       address,
       contact,
     },
   });
+}
+
+export function findUserByEmail(email: string) {
+  return prisma.user.findUnique({ where: { email } });
 }

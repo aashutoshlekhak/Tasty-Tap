@@ -4,8 +4,10 @@ export interface IUser {
   email: string;
   full_name: string;
   profile_picture: string;
-  password_hash: string;
+  password: string;
   is_admin: boolean;
   address: string;
   contact: string;
 }
+
+export type Ilogin = Pick<IUser, "email" | "password">;

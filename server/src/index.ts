@@ -1,5 +1,5 @@
-import app from "./app";
 import config from "./config";
+import app from "./app";
 import { connectDB } from "./db/prisma.db";
 import loggerWithNameSpace from "./utils/logger.utils";
 
