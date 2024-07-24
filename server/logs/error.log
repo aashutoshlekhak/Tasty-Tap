@@ -1,0 +1,46 @@
+2024-07-24 09:51:32 [error] []: Error: Unable to create user
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:22:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:29:65)
+2024-07-24 09:53:53 [error] []: Error: User with email cat@gmail.com already exists
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:16:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-24 09:53:55 [error] []: Error: User with email cat@gmail.com already exists
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:16:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-24 09:56:26 [error] []: Error: User with username cat already exists
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:19:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-24 09:57:28 [error] []: Error: User with email nice@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-24 09:57:39 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:39:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-24 11:17:16 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:32:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-07-24 11:18:10 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)

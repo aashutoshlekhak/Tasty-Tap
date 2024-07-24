@@ -1,29 +1,89 @@
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import * as UserService from "../services/user.service";
+import HttpStatusCodes from "http-status-codes";
+import { AuthRequest } from "../interface/auth.interface";
 
-export async function createUser(req: Request, res: Response) {
-  const user = req.body;
-  const localFilePath: any = req.files;
-  user.profile_picture = localFilePath.profile_picture[0].path;
-  await UserService.createUser({ ...user, is_admin: true });
-  res.status(201).json({ message: "User created successfully" });
-}
-
-export async function findUserByEmail(req: Request, res: Response) {
-  const email = req.body.email;
-  const user = await UserService.findUserByEmail(email);
-  if (!user) {
-    return res.status(404).json({ message: "User not found" });
+export async function createUser(
+  req: Request,
+  res: Response,
+  next: NextFunction
+) {
+  try {
+    const user = req.body;
+    const localFilePath: any = req.files;
+    user.profile_picture = localFilePath.profile_picture[0].path;
+    await UserService.createUser({ ...user, is_admin: true });
+    res
+      .status(HttpStatusCodes.CREATED)
+      .json({ message: "controller: User created successfully" });
+  } catch (error) {
+    next(error);
   }
-  res.status(200).json(user);
 }
 
-export async function login(req: Request, res: Response) {
+export async function findUserByEmail(
+  req: Request,
+  res: Response,
+  next: NextFunction
+) {
+  try {
+    const email = req.body.email;
+    const user = await UserService.findUserByEmail(email);
+    res.status(HttpStatusCodes.OK).json(user);
+  } catch (error) {
+    next(error);
+  }
+}
+
+export async function login(req: Request, res: Response, next: NextFunction) {
   try {
     const login = req.body;
     const token = await UserService.login(login);
-    res.status(200).json({ accessToken: token });
+    res.status(HttpStatusCodes.OK).json({ token });
   } catch (error: any) {
-    res.status(400).json(error);
+    next(error);
   }
 }
+
+export async function getAllUsers(
+  req: Request,
+  res: Response,
+  next: NextFunction
+) {
+  try {
+    const users = await UserService.getAllUsers();
+    res.status(HttpStatusCodes.OK).json(users);
+  } catch (error) {
+    next(error);
+  }
+}
+
+export async function updateUser(
+  req: AuthRequest,
+  res: Response,
+  next: NextFunction
+) {
+  try {
+    const user = req.body;
+    const email = req.user.email;
+    const updatedUser = await UserService.updateUser(user, email);
+    res.status(HttpStatusCodes.OK).json(updatedUser);
+  } catch (error) {
+    next(error);
+  }
+}
+
+export async function deleteUser(
+  req: AuthRequest,
+  res: Response,
+  next: NextFunction
+) {
+  try {
+    const email = req.user.email;
+    const deletedUser = await UserService.deleteUser(email);
+    res.status(HttpStatusCodes.OK).json(deletedUser);
+  } catch (error) {
+    next(error);
+  }
+}
+
