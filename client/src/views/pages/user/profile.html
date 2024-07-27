@@ -1,0 +1,151 @@
+<div
+  class="items-center justify-center min-h-[calc(100vh-85px)] flex gap-4"
+  id="profile-section"
+>
+  <div
+    class="bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-xs p-5"
+  >
+    <div class="flex justify-center mt-6">
+      <img
+        id="profile_picture"
+        class="w-32 h-32 rounded-full border-4 border-gray-300"
+        src=""
+        alt="Profile Picture"
+      />
+    </div>
+    <div class="p-6"></div>
+    <h2 id="full_name" class="text-xl font-semibold text-center mb-2">
+      Full Name
+    </h2>
+    <p id="username" class="text-gray-600 text-center">@username</p>
+    <p id="email" class="text-gray-600 text-center mb-4">Email</p>
+    <div class="flex flex-col items-start space-y-2">
+      <div class="flex items-center">
+        <span class="text-gray-600 font-semibold">Address:</span>
+        <span id="address" class="ml-2 text-gray-800">Address</span>
+      </div>
+      <div class="flex items-center">
+        <span class="text-gray-600 font-semibold">Contact:</span>
+        <span id="contact" class="ml-2 text-gray-800">Contact</span>
+      </div>
+    </div>
+    <button
+      id="update-profile-button"
+      class="mt-3 w-full rounded-lg bg-yellow-500 py-3 text-xs font-bold uppercase text-white transition-all hover:bg-yellow-600"
+    >
+      Update Profile
+    </button>
+  </div>
+</div>
+
+<!-- Profile Update section -->
+<section
+  class="signup-form justify-center items-center min-h-[calc(100vh-85px)] hidden"
+  id="update-profile-section"
+>
+  <div
+    class="flex flex-col text-gray-700 bg-transparent p-4 border-dashed border-2 border-neutral-500 rounded-lg shadow-lg relative"
+  >
+    <div
+      class="signup-form-close flex items-center justify-center absolute right-0 top-0 w-fit h-6 bg-red-500 rounded-md cursor-pointer p-2 text-white"
+      id="close-update-profile-button"
+    >
+      <p class=""><i class="fa-solid fa-xmark"></i> close</p>
+    </div>
+    <h4 class="text-2xl font-semibold text-blue-gray-900">Update Profile</h4>
+
+    <form id="signupForm" class="max-w-screen-lg mt-4 mb-1 w-80 sm:w-96">
+      <div class="flex flex-col gap-2 mb-1">
+        <h6 class="text-base font-semibold text-blue-gray-900">Username</h6>
+        <div class="relative h-10 w-full min-w-[200px]">
+          <input
+            id="username"
+            name="username"
+            placeholder="Your Username"
+            class="h-full w-full rounded-md border border-gray-300 px-2 py-2 text-sm"
+            required
+          />
+        </div>
+        <h6 class="text-base font-semibold text-blue-gray-900">Your Email</h6>
+        <div class="relative h-10 w-full min-w-[200px]">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="name@mail.com"
+            class="h-full w-full rounded-md border border-gray-300 px-2 py-2 text-sm"
+            required
+          />
+        </div>
+        <h6 class="text-base font-semibold text-blue-gray-900">Password</h6>
+        <div class="relative h-10 w-full min-w-[200px]">
+          <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="********"
+            class="h-full w-full rounded-md border border-gray-300 px-2 py-2 text-sm"
+            required
+          />
+        </div>
+        <h6 class="text-base font-semibold text-blue-gray-900">Full Name</h6>
+        <div class="relative h-10 w-full min-w-[200px]">
+          <input
+            id="fullName"
+            name="full_name"
+            placeholder="Your Full Name"
+            class="h-full w-full rounded-md border border-gray-300 px-2 py-2 text-sm"
+            required
+          />
+        </div>
+        <h6 class="text-base font-semibold text-blue-gray-900">
+          Profile Picture
+        </h6>
+        <div class="relative h-10 w-full min-w-[200px]">
+          <input
+            id="profilePicture"
+            name="profile_picture"
+            type="file"
+            class="h-full w-full rounded-md border border-gray-300 px-2 py-2 text-sm"
+            required
+          />
+        </div>
+        <h6 class="text-base font-semibold text-blue-gray-900">Address</h6>
+        <div class="relative h-10 w-full min-w-[200px]">
+          <input
+            id="address"
+            name="address"
+            placeholder="Your Address"
+            class="h-full w-full rounded-md border border-gray-300 px-2 py-2 text-sm"
+            required
+          />
+        </div>
+        <h6 class="text-base font-semibold text-blue-gray-900">Contact</h6>
+        <div class="relative h-10 w-full min-w-[200px]">
+          <input
+            id="contact"
+            name="contact"
+            placeholder="Your Contact Number"
+            class="h-full w-full rounded-md border border-gray-300 px-2 py-2 text-sm"
+            required
+          />
+        </div>
+      </div>
+
+      <button
+        id="signUpButton"
+        class="mt-3 w-full rounded-lg bg-yellow-500 py-3 text-xs font-bold uppercase text-white transition-all hover:bg-yellow-600"
+        type="submit"
+      >
+        Sign Up
+      </button>
+      <p class="mt-2 text-base text-center">
+        Already have an account?
+        <a href="#" class="font-medium text-blue-600 hover:text-blue-800"
+          >Sign In</a
+        >
+      </p>
+      <p id="errorMessage" class="mt-4 text-sm text-red-500"></p>
+    </form>
+  </div>
+</section>

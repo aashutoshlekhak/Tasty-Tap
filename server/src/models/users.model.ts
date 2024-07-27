@@ -12,6 +12,7 @@ export function createUser(user: IUser) {
     address,
     contact,
   } = user;
+
   return prisma.user.create({
     data: {
       username,
@@ -60,6 +61,3 @@ export function updateUser(user: IUser, userEmail: string) {
 export function deleteUser(email: string) {
   return prisma.user.delete({ where: { email } });
 }
-
-
-

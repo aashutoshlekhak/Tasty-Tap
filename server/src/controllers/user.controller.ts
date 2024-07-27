@@ -87,3 +87,16 @@ export async function deleteUser(
   }
 }
 
+export async function myProfile(
+  req: AuthRequest,
+  res: Response,
+  next: NextFunction
+) {
+  try {
+    const email = req.user.email;
+    const user = await UserService.findUserByEmail(email);
+    res.status(HttpStatusCodes.OK).json(user);
+  } catch (error) {
+    next(error);
+  }
+}

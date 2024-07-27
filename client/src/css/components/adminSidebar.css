@@ -1,0 +1,3 @@
+.sidebar-menu {
+  @apply px-2 py-1 rounded-md bg-yellow-200 hover:border-gray-700 hover:border;
+}

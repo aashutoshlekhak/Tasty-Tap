@@ -1,0 +1,37 @@
+<!-- src/views/pages/admin/adminPortal.html -->
+<div id="admin-dashboard" class="flex">
+  <div id="sidebar" class="bg-yellow-50 w-44 px-3 pt-4 border-r border-1 border-gray-400 ">
+    <!-- Sidebar content here -->
+    <nav>
+      <ul class="space-y-2 font-light">
+        <li class="sidebar-menu">
+          <a href="#/admin/dashboard">Dashboard</a>
+        </li>
+        <li
+          class="px-2 py-1 rounded-md bg-yellow-200 hover:border-gray-700 hover:border"
+        >
+          <a href="#/admin/orders">Orders</a>
+        </li>
+        <li
+          class="px-2 py-1 rounded-md bg-yellow-200 hover:border-gray-700 hover:border"
+        >
+          <a href="#/admin/menu">Menus</a>
+        </li>
+        <li
+          class="px-2 py-1 rounded-md bg-yellow-200 hover:border-gray-700 hover:border"
+        >
+          <a href="#/admin/customers">Customers</a>
+        </li>
+        <li
+          class="px-2 py-1 rounded-md bg-yellow-200 hover:border-gray-700 hover:border"
+        >
+          <a href="#/admin/analytics">Analytics</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div id="main-content" class="sw-full p-4 h-[calc(100vh-80px)] bg-gray-100 w-full">
+    This is the main content
+    <!-- Main content will be dynamically loaded here -->
+  </div>
+</div>

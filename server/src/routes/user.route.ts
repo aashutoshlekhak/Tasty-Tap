@@ -5,6 +5,7 @@ import {
   deleteUser,
   findUserByEmail,
   login,
+  myProfile,
   updateUser,
 } from "../controllers/user.controller";
 import { upload } from "../middlewares/multer.middleware";
@@ -25,5 +26,6 @@ router.post("/login", login);
 router.delete("/deleteUser", authenticate, deleteUser);
 
 router.put("/updateUser", authenticate, updateUser);
+router.get("/info", authenticate, myProfile);
 
 export default router;

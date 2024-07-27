@@ -44,3 +44,794 @@
     at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
     at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
     at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-07-25 14:37:49 [error] []: Error: User with email aashutoshlekhak@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 14:46:14 [error] []: Error: User with email aashutoshlekhak@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 14:48:32 [error] []: Error: User with email aashutoshlekhak@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 14:49:14 [error] []: Error: User with email aashutoshlekhak@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 14:49:39 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:39:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 14:49:53 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:39:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 14:51:40 [error] []: Error: User with email lekhakaashutosh218@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 14:52:19 [error] []: Error: User with email apple@gmail.co not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 14:52:36 [error] []: Error: User with email aashutoshlekhak@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 14:53:15 [error] []: Error: User with email aashutoshlekhak@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 14:53:33 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:39:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 15:06:03 [error] []: Error: User with email asdfa@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 15:06:04 [error] []: Error: User with email asdfa@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 15:18:01 [error] []: Error: User with email aashutoshlekhak@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 15:32:38 [error] []: Error: User with email aashutoshlekhak@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 15:33:05 [error] []: Error: User with email asdfa@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 15:34:21 [error] []: Error: User with email aashutoshlekhak@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 15:35:36 [error] []: Error: User with email aashutoshlekhak@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 15:36:04 [error] []: Error: User with email asdfa@gmail.coma not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:35:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 15:36:17 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:39:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 17:10:08 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-07-25 17:12:26 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-07-25 18:35:04 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:39:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 18:35:11 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:39:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-25 18:35:13 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:39:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-26 09:33:59 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:39:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-26 10:58:34 [error] []: PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/users.model.ts:15:22
+
+  12   address,
+  13   contact,
+  14 } = user;
+→ 15 return prisma.user.create(
+Unique constraint failed on the fields: (`username`)
+    at _n.handleRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7749)
+    at _n.handleAndLogRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7057)
+    at _n.request (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:6741)
+    at async l (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:130:9355)
+2024-07-26 23:03:24 [error] []: Error: Error with database
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:56:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-26 23:03:53 [error] []: Error: User with email appe@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:57:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-26 23:04:12 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:60:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-26 23:04:48 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:60:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-26 23:05:55 [error] []: Error: User with email aashutosh@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:57:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-26 23:55:21 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:47:12)
+2024-07-26 23:58:13 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:9:28
+
+  6 const image_path =
+  7   menu.image_url ||
+  8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+→ 9 return prisma.menu_items.create({
+      data: {
+        description: undefined,
+        price: undefined,
+        category: undefined,
+        image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+    +   name: String
+      }
+    })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:9:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 07:27:52 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 console.log(name, description, price, category, image_path);
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:9:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 07:29:14 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 console.log("hello hello");
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:9:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 07:29:51 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 console.log(`menu is: ${menu}`);
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:9:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 07:30:25 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 console.log(`menu is: ${menu.description}`);
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:9:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 07:31:27 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 07:32:45 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 07:34:28 [error] []: Error: User with email usertest@gmail.com already exists
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:16:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-07-27 07:35:52 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 07:35:57 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:41:08 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:41:36 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:41:37 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:49:56 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:49:58 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:49:59 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:50:21 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:52:55 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:52:58 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-07-27 08:53:02 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:57:28 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:57:51 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 08:58:25 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 09:01:56 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 09:04:55 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 09:15:54 [error] []: SyntaxError: Expected double-quoted property name in JSON at position 23
+    at JSON.parse (<anonymous>)
+    at parse (/Users/lekha/Desktop/Tasty Tap/server/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/Users/lekha/Desktop/Tasty Tap/server/node_modules/raw-body/index.js:238:16)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/lekha/Desktop/Tasty Tap/server/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+2024-07-27 09:16:08 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:10:28
+
+   7   menu.image_url ||
+   8   "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg";
+   9 
+→ 10 return prisma.menu_items.create({
+       data: {
+         description: undefined,
+         price: undefined,
+         category: undefined,
+         image_url: "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg",
+     +   name: String
+       }
+     })
+
+Argument `name` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 10:19:41 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:15:46
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:27:12)
+    at createMenu (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:48:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 10:20:07 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:15:46
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:27:12)
+    at createMenu (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:48:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 10:21:05 [error] []: MulterError: Unexpected field
+    at wrappedFileFilter (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (node:events:519:28)
+    at Multipart.emit (node:domain:488:12)
+    at HeaderParser.cb (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:567:19)
+2024-07-27 10:22:28 [error] []: MulterError: Unexpected field
+    at wrappedFileFilter (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (node:events:519:28)
+    at Multipart.emit (node:domain:488:12)
+    at HeaderParser.cb (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:567:19)
+2024-07-27 10:22:38 [error] []: MulterError: Unexpected field
+    at wrappedFileFilter (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (node:events:519:28)
+    at Multipart.emit (node:domain:488:12)
+    at HeaderParser.cb (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:567:19)
+2024-07-27 10:24:53 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:7:28
+
+  4 export function createMenu(menu: IMenu) {
+  5   const { name, description, price, category, image_url } = menu;
+  6   console.log('hello world');
+→ 7   return prisma.menu_items.create({
+        data: {
+          name: "momo",
+          description: "good",
+          price: "120",
+                 ~~~~~
+          category: "veg",
+          image_url: "https://res.cloudinary.com/dxxnvyyzv/image/upload/v1722055192/cuov3ujzo544kzcva1fc.png"
+        }
+      })
+
+Argument `price`: Invalid value provided. Expected Float, provided String.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 10:42:21 [error] []: Error: Error while creating menu: PrismaClientValidationError: 
+Invalid `prisma.menu_items.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:7:28
+
+  4 export function createMenu(menu: IMenu) {
+  5   const { name, description, price, category, image_url } = menu;
+  6   console.log('hello world');
+→ 7   return prisma.menu_items.create({
+        data: {
+          name: "momo",
+          description: "good",
+          price: "120",
+                 ~~~~~
+          category: "veg",
+          image_url: "https://res.cloudinary.com/dxxnvyyzv/image/upload/v1722056241/rqrzqej0dzqqvidfuete.png"
+        }
+      })
+
+Argument `price`: Invalid value provided. Expected Float, provided String.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
