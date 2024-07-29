@@ -2,6 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import * as UserService from "../services/user.service";
 import HttpStatusCodes from "http-status-codes";
 import { AuthRequest } from "../interface/auth.interface";
+import { IUser } from "../interface/user.interface";
 
 export async function createUser(
   req: Request,
@@ -64,8 +65,10 @@ export async function updateUser(
   next: NextFunction
 ) {
   try {
-    const user = req.body;
-    const email = req.user.email;
+    const user: IUser = req.body;
+    const email = req.params.email;
+    const localFilePath: any = req.files;
+    user.profile_picture = localFilePath.profile_picture[0].path;
     const updatedUser = await UserService.updateUser(user, email);
     res.status(HttpStatusCodes.OK).json(updatedUser);
   } catch (error) {

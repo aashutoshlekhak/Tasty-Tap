@@ -835,3 +835,358 @@ Argument `price`: Invalid value provided. Expected Float, provided String.
     at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:11:11)
     at Generator.throw (<anonymous>)
     at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 16:14:14 [error] []: Error: Menu with id 1 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:31:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-07-27 16:20:49 [error] []: Error: Error while deleting menu: PrismaClientKnownRequestError: 
+Invalid `prisma.menu_items.delete()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:44:34
+
+  41 }
+  42 
+  43 export function deleteMenu(id: number) {
+→ 44   return prisma.menu_items.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:40:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 16:21:00 [error] []: Error: Menu with id 2 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:31:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-07-27 16:23:53 [error] []: Error: Error while deleting menu: PrismaClientKnownRequestError: 
+Invalid `prisma.menu_items.delete()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:44:34
+
+  41 }
+  42 
+  43 export function deleteMenu(id: number) {
+→ 44   return prisma.menu_items.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:40:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 16:25:09 [error] []: Error: Error while deleting menu: PrismaClientKnownRequestError: 
+Invalid `prisma.menu_items.delete()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:44:34
+
+  41 }
+  42 
+  43 export function deleteMenu(id: number) {
+→ 44   return prisma.menu_items.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:40:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 16:32:21 [error] []: Error: Error while deleting menu: PrismaClientKnownRequestError: 
+Invalid `prisma.menu_items.delete()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/menu.model.ts:44:34
+
+  41 }
+  42 
+  43 export function deleteMenu(id: number) {
+→ 44   return prisma.menu_items.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:40:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:29:65)
+2024-07-27 16:32:50 [error] []: Error: Error while updating menu: TypeError: Cannot read properties of undefined (reading 'toString')
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:49:11)
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:27:12)
+    at Object.updateMenu (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:86:12)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:78:23
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:31:71
+    at new Promise (<anonymous>)
+2024-07-27 16:33:42 [error] []: Error: Error while updating menu: TypeError: Cannot read properties of undefined (reading 'toString')
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:49:11)
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:27:12)
+    at Object.updateMenu (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:86:12)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:78:23
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:31:71
+    at new Promise (<anonymous>)
+2024-07-27 16:34:41 [error] []: Error: Error while updating menu: TypeError: Cannot read properties of undefined (reading 'toString')
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:49:11)
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:27:12)
+    at Object.updateMenu (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:86:12)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:78:23
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:31:71
+    at new Promise (<anonymous>)
+2024-07-27 16:36:40 [error] []: Error: Error while updating menu: TypeError: Cannot read properties of undefined (reading 'toString')
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:49:11)
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:27:12)
+    at Object.updateMenu (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:86:12)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:77:23
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:31:71
+    at new Promise (<anonymous>)
+2024-07-27 16:37:14 [error] []: Error: Error while updating menu: TypeError: Cannot read properties of undefined (reading 'toString')
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:49:11)
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:27:12)
+    at Object.updateMenu (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:86:12)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:78:23
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:31:71
+    at new Promise (<anonymous>)
+2024-07-27 16:37:52 [error] []: Error: Error while updating menu: TypeError: Cannot read properties of undefined (reading 'toString')
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:50:11)
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:27:12)
+    at Object.updateMenu (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:86:12)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:78:23
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:31:71
+    at new Promise (<anonymous>)
+2024-07-27 22:04:30 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+2024-07-27 22:04:49 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:70:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:05:32 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:71:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:06:06 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:70:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:06:14 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:70:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:07:17 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:70:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:07:34 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:70:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:07:45 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:71:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:08:18 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:72:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:08:27 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:72:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:08:43 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:73:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:09:30 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:72:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:09:50 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:72:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:10:05 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:72:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-07-27 22:14:36 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+2024-07-27 22:15:29 [error] []: TypeError: Cannot read properties of undefined (reading 'profile_picture')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:71:42
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at updateUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:99:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at multerMiddleware (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-07-27 22:17:08 [error] []: MulterError: Unexpected field
+    at wrappedFileFilter (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (node:events:519:28)
+    at Multipart.emit (node:domain:488:12)
+    at HeaderParser.cb (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:567:19)
+2024-07-27 22:17:09 [error] []: MulterError: Unexpected field
+    at wrappedFileFilter (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (node:events:519:28)
+    at Multipart.emit (node:domain:488:12)
+    at HeaderParser.cb (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:567:19)
+2024-07-27 22:17:09 [error] []: MulterError: Unexpected field
+    at wrappedFileFilter (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (node:events:519:28)
+    at Multipart.emit (node:domain:488:12)
+    at HeaderParser.cb (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:567:19)
+2024-07-27 22:17:36 [error] []: MulterError: Unexpected field
+    at wrappedFileFilter (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (node:events:519:28)
+    at Multipart.emit (node:domain:488:12)
+    at HeaderParser.cb (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/Users/lekha/Desktop/Tasty Tap/server/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/Users/lekha/Desktop/Tasty Tap/server/node_modules/busboy/lib/types/multipart.js:567:19)
+2024-07-27 22:18:38 [error] []: PrismaClientKnownRequestError: 
+Invalid `prisma.user.update()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/users.model.ts:47:22
+
+  44 export function updateUser(user: IUser, userEmail: string) {
+  45   const { id, username, full_name, email, profile_picture, address, contact } =
+  46     user;
+→ 47   return prisma.user.update(
+Unique constraint failed on the fields: (`email`)
+    at _n.handleRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7749)
+    at _n.handleAndLogRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7057)
+    at _n.request (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:6741)
+    at async l (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:130:9355)

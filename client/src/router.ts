@@ -8,12 +8,14 @@ import {
 } from "./loaders/adminDashboard";
 import { Homepage } from "./loaders/homepage";
 import { login } from "./loaders/login";
+import { MenuPage } from "./loaders/manuPage";
 import { notFound } from "./loaders/notFound";
 import { signup } from "./loaders/signup";
 import { userProfile } from "./loaders/user";
 
 const routes: { [key: string]: { component: any } } = {
   "#/": { component: Homepage },
+  "#/menu": { component: MenuPage },
   "#/signup": { component: signup },
   "#/login": { component: login },
   "#/notFound": { component: notFound },

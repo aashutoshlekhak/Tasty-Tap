@@ -11,5 +11,3 @@ export class login {
     await LoginForm.load();
   };
 }
-
-

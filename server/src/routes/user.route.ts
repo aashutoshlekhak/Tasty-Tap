@@ -25,7 +25,13 @@ router.post("/login", login);
 
 router.delete("/deleteUser", authenticate, deleteUser);
 
-router.put("/updateUser", authenticate, updateUser);
+router.put(
+  "/updateUser/:email",
+  authenticate,
+  upload.fields([{ name: "profile_picture", maxCount: 1 }]),
+  updateUser
+);
+
 router.get("/info", authenticate, myProfile);
 
 export default router;

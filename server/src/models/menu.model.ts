@@ -3,7 +3,6 @@ import { IMenu } from "../interface/menu.interface";
 
 export function createMenu(menu: IMenu) {
   const { name, description, price, category, image_url } = menu;
-  console.log('hello world');
   return prisma.menu_items.create({
     data: {
       name,

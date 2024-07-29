@@ -12,7 +12,6 @@ export async function createMenu(
   try {
     const menu = req.body;
     const localFilePath: any = req.files;
-    console.log("local file path", localFilePath);
     menu.image_url = localFilePath.image_url[0].path;
 
     await MenuService.createMenu(menu);
@@ -73,7 +72,10 @@ export async function updateMenu(
   next: NextFunction
 ) {
   try {
+    
     const menu: IMenu = req.body;
+    const localFilePath: any = req.files;
+    menu.image_url = localFilePath.image_url[0].path;
     const id = parseInt(req.params.id);
     await MenuService.updateMenu(menu, id);
     res
