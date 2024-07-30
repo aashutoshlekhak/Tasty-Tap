@@ -1,19 +1,46 @@
-
-
 <section
   id="hero"
-  class="px-16 py-6 bg-neutral-700 flex items-center justify-center"
+  class="px-4 max-h-[700px] overflow-hidden py-6 bg-neutral-800 flex items-center justify-center"
 >
-  <div class="hero-left w-1/2 flex flex-col gap-4">
-    <p class="text-red-500 text-2xl">Fastest Delivery & Easy Pickup</p>
-    <h1 class="text-6xl font-bold text-yellow-400">Kings Burger</h1>
-    <p class="text-white font-light text-md mb-10">
-      Good food starts with good ingridients. We only bring you the best
+  <div class="hero-left w-[50%] flex flex-col gap-4 pl-8">
+    <h1 class="text-8xl font-bold text-white">
+      Tasty
+      <span class="inline-block p-3 rounded-lg text-black bg-orange-500"
+        >Tap</span
+      >
+    </h1>
+    <p class="text-orange-400 font-extralight text-2xl mb-8">
+      Tasty food is just a tap away
     </p>
+    <a
+      href="#/menu"
+      class="flex items-center justify-center py-3 px-8 rounded-md text-white bg-orange-500 w-fit mb-12"
+      >See Menu</a
+    >
+
+    <div
+      class="flex gap-8 text-white font-mono font-extralight mt-auto items-center"
+    >
+      <a href="tel:+97798765432" class="hero-link-style"
+        ><i class="fa-solid fa-phone"></i> +977-98765432</a
+      >
+      <a href="#" class="hero-link-style"
+        ><i class="fa-solid fa-location-dot"></i> Pokhara, Nepal</a
+      >
+      <a href="mailto:VJWjv@example.com" class="hero-link-style"
+        ><i class="fa-solid fa-envelope"></i> info@tastytap.com</a
+      >
+    </div>
   </div>
-  <div class="hero-rightw w-1/2">
-    <div class="hero-right--image-container w-full p-8 bg-red-100 image-clip">
-      <img src="../../../public/images/burger.png" alt="" class="w-full" />
+
+  <!-- Right Section -->
+  <div class="hero-rightw w-[50%] h-full">
+    <div class="hero-right--image-container w-full">
+      <img
+        src="../../../public/images/hero-section-food.png"
+        alt=""
+        class="w-full"
+      />
     </div>
   </div>
 </section>

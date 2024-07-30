@@ -24,36 +24,22 @@ export function MenuCard(menu: IMenu) {
         <p class="text-lg font-semibold text-green-600">₹ ${menu.price}</p>
     </div>
     <p
-        class="px-3 mb-2 italic font-extralight text-xs text-neutral-500 text-justify min-h-[30px] max-h-[30px] overflow-scroll"
+        class="px-3 mb-5 italic font-extralight text-xs text-neutral-500 text-justify min-h-[50px] max-h-[50px] overflow-scroll"
     >
         ${menu.description}
     </p>
     <div class="navigation-buttons flex gap-1 px-2 mb-2">
+        
         <button
-        class="bg-black w-8 h-8 text-white p-1 flex items-center justify-center rounded-lg hover:bg-green-800"
-        data-id="${menu.id}"
-        >
-        -
-        </button>
-        <button
-        class="bg-black flex-grow h-8 text-white font-extralight text-sm p-1 flex items-center justify-center rounded-lg hover:bg-green-800"
+        class="bg-black flex-grow h-8 text-white font-extralight text-sm p-1 flex items-center justify-center rounded-lg hover:bg-green-800 addToCart"
         data-id="${menu.id}"
         >
         Add to Cart
         </button>
-        <p
-        class="text-sm flex px-2 items-center justify-center bg-black text-white rounded-lg"
-        >
-        1
-        </p>
-        <button
-        class="bg-black w-8 h-8 text-white p-1 flex items-center justify-center rounded-lg hover:bg-green-800"
-        data-id="${menu.id}"
-        >
-        +
-        </button>
+        
+        
     </div>
-    <div class="flex items-center justify-center gap-2 px-2">
+    <div class="hidden items-center justify-center gap-2 px-2">
         <button
         class="w-[45%] flex-grow rounded-lg text-red-500 border-red-500 hover:text-white hover:bg-red-500 font-semibold border deleteMenuCard"
 

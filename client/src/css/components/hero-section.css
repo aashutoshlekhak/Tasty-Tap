@@ -1,3 +1,8 @@
 .image-clip {
-  @apply  px-16 rounded-full bg-neutral-800
+  @apply px-16 rounded-full bg-neutral-800;
 }
+
+.hero-link-style {
+  @apply rounded-md border p-3 hover:bg-black hover:border-none hover:text-orange-400 transition-all duration-300;
+}
+

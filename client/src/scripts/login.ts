@@ -1,4 +1,5 @@
 import axios from "axios";
+import config from "../config";
 export class LoginForm {
   static load = async () => {
     const loginForm = document.getElementById("loginForm") as HTMLFormElement;
@@ -13,17 +14,18 @@ export class LoginForm {
         password,
       });
       try {
-        const response = await axios.post(
-          "http://localhost:3000/api/v1/users/login",
-          {
-            email,
-            password,
-          }
-        );
+        const response = await axios.post(`${config.BASE_URL}/users/login`, {
+          email,
+          password,
+        });
         console.log(response.data);
         if (response.status === 200) {
           localStorage.setItem("accessToken", response.data.token);
-
+          // let orders: any[] = [];
+          // if (localStorage.getItem("orders")) {
+          //   orders = JSON.parse(localStorage.getItem("orders") || "[]");
+          // }
+          // localStorage.setItem("orders", JSON.stringify(orders));
           window.location.hash = "#/admin/dashboard";
         }
 

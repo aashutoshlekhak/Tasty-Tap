@@ -5,6 +5,7 @@ import { uploadOnCloudinary } from "../utils/cloudinary.utils";
 
 export async function createMenu(menu: IMenu) {
   try {
+    console.log(menu)
     const response = await uploadOnCloudinary(menu.image_url);
     const price = parseFloat(menu.price.toString());
     await MenuModel.createMenu({

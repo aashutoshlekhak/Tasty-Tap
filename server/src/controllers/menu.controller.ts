@@ -13,7 +13,7 @@ export async function createMenu(
     const menu = req.body;
     const localFilePath: any = req.files;
     menu.image_url = localFilePath.image_url[0].path;
-
+    console.log(`controller menu`, menu);
     await MenuService.createMenu(menu);
     res
       .status(HttpStatusCodes.CREATED)
@@ -72,7 +72,6 @@ export async function updateMenu(
   next: NextFunction
 ) {
   try {
-    
     const menu: IMenu = req.body;
     const localFilePath: any = req.files;
     menu.image_url = localFilePath.image_url[0].path;

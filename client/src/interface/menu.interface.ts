@@ -8,3 +8,12 @@ export default interface IMenu {
   price: number;
   updated_at: string;
 }
+
+export interface ICartMenu {
+  image_url: string;
+  name: string;
+  price: number;
+  quantity: number;
+  total: number;
+  id: number;
+}

@@ -1,0 +1,94 @@
+<section id="cart-container" class="flex flex-col gap-4 p-8">
+  <h1 class="text-3xl font-semibold text-neutral-700 mb-4">Orders</h1>
+  <div class="flex gap-4 justify-center">
+    <table
+      class="border-collapse w-[65%] bg-yellow-50 text-neutral-700 rounded-lg border border-neutral-300 text-left p-2 h-fit"
+    >
+      <thead>
+        <tr class="border-b-2 text-white bg-orange-500">
+          <th class="px-8 py-3">Product</th>
+          <th class="px-8 py-3">Name</th>
+          <th class="px-8 py-3">Price</th>
+          <th class="px-8 py-3">Quantity</th>
+          <th class="px-8 py-3">Total</th>
+        </tr>
+      </thead>
+      <tbody id="carts-body" class="p-4">
+        <tr class="border-b">
+          <td class="p-2">
+            <img
+              src="https://via.placeholder.com/70"
+              alt="product"
+              class="w-16 h-16 object-cover"
+            />
+          </td>
+          <td class="p-2">Product 3</td>
+          <td class="p-2">₹ 20</td>
+          <td class="p-4">
+            <input
+              type="number"
+              value="2"
+              class="p-2 bg-white border border-neutral-300 rounded"
+            />
+          </td>
+          <td class="p-4">₹ 40</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div
+      class="w-[35%] bg-yellow-50 rounded-lg border border-dashed border-neutral-500 flex flex-col py-4 px-4 text-neutral-600 h-fit"
+    >
+      <p class="text-2xl font-semibold mb-4">
+        Your <span class="text-orange-600">Recipt</span>
+      </p>
+      <div class="flex flex-col gap-3 mb-4">
+        <div class="flex justify-between px-4 items-center">
+          <p class="text-lg">Subtotal</p>
+          <hr class="flex-grow border-dashed border-neutral-500 mx-3" />
+          <p class="font-medium text-orange-500">
+            ₹<span class="text-neutral-600" id="subtotal"> 500</span>
+          </p>
+        </div>
+
+        <div class="flex justify-between px-4 items-center">
+          <p class="text-lg">
+            Delivery
+            <span class="text-orange-500"><i class="fas fa-truck"></i></span>
+          </p>
+          <hr class="flex-grow border-dashed border-neutral-500 mx-3" />
+          <p class="font-medium text-orange-500">
+            ₹<span class="text-neutral-600"> 500</span>
+          </p>
+        </div>
+
+        <div class="flex justify-between px-4 items-center">
+          <p class="text-lg">
+            VAT
+            <span class="text-orange-500">(10%)</span>
+          </p>
+          <hr class="flex-grow border-dashed border-neutral-500 mx-3" />
+          <p class="font-medium text-orange-500">
+            ₹<span class="text-neutral-600" id="vat-price"> 500</span>
+          </p>
+        </div>
+
+        <div class="flex justify-between px-4 items-center mb-3">
+          <p class="text-1xl text-neutral-700 font-semibold">Total</p>
+          <hr class="flex-grow border-dashed border-neutral-500 mx-3" />
+          <p class="font-medium text-orange-600">
+            ₹<span class="text-neutral-800 font-semibold" id="total-price">
+              500</span
+            >
+          </p>
+        </div>
+      </div>
+      <button
+        id="checkout-button"
+        class="w-full hover:bg-orange-500 hover:text-white p-1 rounded-lg text-lg font-semibold border border-dashed border-orange-500 bg-yellow-50 text-orange-500 transition-all duration-300"
+      >
+        Checkout
+      </button>
+    </div>
+  </div>
+</section>
