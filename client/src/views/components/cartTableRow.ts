@@ -17,13 +17,12 @@ export function generateCartRow(cartData: ICartMenu) {
             <input
               type="number"
               value="${cartData.quantity}"
-              class="p-2  bg-white border border-neutral-300 rounded menu-item-quantity"
+              class="p-2  bg-white border border-neutral-300 rounded menu-item-quantity menu-item-count"
               data-id="${cartData.id}"
             />
           </td>
           <td class="py-3 px-4" class="menu-item-total-price" data-id="${cartData.id}">₹ ${cartData.total}</td>
         </tr>
     `;
-
   return markup;
 }
