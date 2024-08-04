@@ -1,1 +1,37 @@
-<p>This is customers page</p>
+<section id="orders" class="flex flex-col gap-4 p-4 overflow-scroll">
+  <h1 class="text-3xl font-semibold text-neutral-700 mb-4">Customers</h1>
+  <div
+    class="flex gap-4 justify-center max-h-[calc(100vh-175px)] overflow-scroll"
+  >
+    <table
+      class="border-collapse w-full bg-yellow-50 text-neutral-700 rounded-lg border border-neutral-300 text-left p-2 h-fit relative"
+    >
+      <thead class="sticky top-0 z-10">
+        <tr class="border-b-2 text-neutral-700 bg-yellow-200">
+          <th class="py-2 px-4">ID</th>
+          <th class="py-2 px-4">Name</th>
+          <th class="py-2 px-4">email</th>
+          <th class="py-2 px-4">Contact</th>
+          <th class="py-2 px-4">Address</th>
+          <th class="py-2 px-4">More</th>
+        </tr>
+      </thead>
+      <tbody id="admin-orders" class="p-4">
+        <tr class="border-b">
+          <td class="py-2 px-4">1</td>
+          <td class="py-2 px-4">Shayan</td>
+          <td class="py-2 px-4">test@gmail.com</td>
+          <td class="p-4">9812456890</td>
+          <td class="py-2 px-4">Bhaisepati, Kathmandu</td>
+          <td class="py-2 px-4">
+            <button
+              class="customer-details bg-teal-200 text-neutral-700 px-4 py-2 rounded-lg hover:bg-teal-400 hover:text-white transition-all duration-300"
+            >
+              Details
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

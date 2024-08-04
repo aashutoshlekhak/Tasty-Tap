@@ -1,3 +1,6 @@
+import { AdminOrders } from "../scripts/orderPage";
+import { AdminUsers } from "../scripts/usersPage";
+
 export class admin {
   static load = async () => {
     const response = await fetch("src/views/pages/admin/adminPortal.html");
@@ -20,6 +23,10 @@ export class orders {
     const markup = await response.text();
     return response.ok ? markup : "Error loading orders";
   };
+
+  static initEventListners = async () => {
+    AdminOrders.load();
+  };
 }
 
 export class menu {
@@ -35,6 +42,10 @@ export class customers {
     const response = await fetch("src/views/pages/admin/customers.html");
     const markup = await response.text();
     return response.ok ? markup : "Error loading customers";
+  };
+
+  static initEventListners = async () => {
+    AdminUsers.load();
   };
 }
 

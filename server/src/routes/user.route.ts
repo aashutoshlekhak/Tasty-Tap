@@ -4,6 +4,7 @@ import {
   createUser,
   deleteUser,
   findUserByEmail,
+  getAllUsers,
   login,
   myProfile,
   updateUser,
@@ -18,20 +19,16 @@ router.post(
   upload.fields([{ name: "profile_picture", maxCount: 1 }]),
   createUser
 );
-
 router.get("/findUser", authenticate, findUserByEmail);
-
 router.post("/login", login);
-
 router.delete("/deleteUser", authenticate, deleteUser);
-
 router.put(
   "/updateUser/:email",
   authenticate,
   upload.fields([{ name: "profile_picture", maxCount: 1 }]),
   updateUser
 );
+router.get("/all", authenticate, getAllUsers);
 
 router.get("/info", authenticate, myProfile);
-
 export default router;

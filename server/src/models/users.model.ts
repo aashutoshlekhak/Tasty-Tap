@@ -37,7 +37,17 @@ export function findUserByUsername(username: string) {
 
 //get all users
 export function getAllUsers() {
-  return prisma.user.findMany();
+  return prisma.user.findMany({
+    select: {
+      id: true, 
+      username: true, 
+      email: true, 
+      full_name: true,
+      profile_picture: true,
+      contact: true,
+      address: true,
+    }
+  });
 }
 
 //update user profile

@@ -27,6 +27,8 @@ model User {
   contact String
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
+  orders Order[]
+  reviews Review[]
 }
 
 model menu_items{
@@ -38,9 +40,53 @@ model menu_items{
   category String
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
+  orders Order[]
+  reviews Review[]
+}
+
+model Order {
+  id Int @id @default(autoincrement())
+  user_id Int
+  menu_id Int
+  payment_status payment_status @default(PENDING)
+  delivery_status delivery_status @default(PENDING)
+  quantity Int @default(1)
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  user User @relation(fields: [user_id], references: [id])
+  menu_items menu_items @relation(fields: [menu_id], references: [id])
+}
+
+model Review {
+  id Int @id @default(autoincrement())
+  user_id Int
+  menu_id Int
+  review String
+  rating Int @default(3)
+  user User @relation(fields: [user_id], references: [id])
+  menu_items menu_items @relation(fields: [menu_id], references: [id])
+  sentiment review_sentiment @default(NEUTRAL)
 }
 
 enum Role {
   USER
   ADMIN
+}
+
+enum payment_status {
+  PENDING
+  PAID
+}
+
+enum delivery_status {
+  PENDING
+  DISPATCHED
+  DELIVERED
+}
+
+
+enum review_sentiment {
+  POSITIVE
+  NEGATIVE
+  NEUTRAL
 }
