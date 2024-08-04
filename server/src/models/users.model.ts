@@ -37,7 +37,32 @@ export function findUserByUsername(username: string) {
 
 //get all users
 export function getAllUsers() {
-  return prisma.user.findMany();
+  return prisma.user.findMany({
+    select: {
+      id: true,
+      username: true,
+      email: true,
+      full_name: true,
+      profile_picture: true,
+      contact: true,
+      address: true,
+    },
+  });
+}
+
+export function getUserById(id: number) {
+  return prisma.user.findUnique({
+    where: { id },
+    select: {
+      id: true,
+      username: true,
+      email: true,
+      full_name: true,
+      profile_picture: true,
+      contact: true,
+      address: true,
+    },
+  });
 }
 
 //update user profile
@@ -60,4 +85,9 @@ export function updateUser(user: IUser, userEmail: string) {
 //delete account
 export function deleteUser(email: string) {
   return prisma.user.delete({ where: { email } });
+}
+
+//delete account by id
+export function deleteUserById(id: number) {
+  return prisma.user.delete({ where: { id } });
 }

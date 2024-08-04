@@ -24,6 +24,10 @@ const config = {
     origin: process.env.CORS_ORIGIN,
     credentials: true,
   },
+
+  gemini: {
+    api_key: process.env.GEMINI_API_KEY,
+  },
 };
 
 export default config;

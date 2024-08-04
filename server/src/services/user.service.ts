@@ -80,6 +80,14 @@ export async function getAllUsers() {
   return users;
 }
 
+export async function getUserById(id: number) {
+  const user = UserModel.getUserById(id);
+  if (!user) {
+    throw new NotFoundError(`User with id ${id} not found`);
+  }
+  return user;
+}
+
 export async function updateUser(user: IUser, userEmail: string) {
   const existingUser = await UserModel.findUserByEmail(userEmail);
   if (!existingUser) {
@@ -98,4 +106,12 @@ export async function deleteUser(email: string) {
     throw new NotFoundError(`User with email ${email} not found`);
   }
   await UserModel.deleteUser(email);
+}
+
+export async function deleteUserById(id: number) {
+  const existingUser = await UserModel.getUserById(id);
+  if (!existingUser) {
+    throw new NotFoundError(`User with id ${id} not found`);
+  }
+  await UserModel.deleteUserById(id);
 }

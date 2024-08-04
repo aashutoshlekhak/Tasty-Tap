@@ -4594,3 +4594,2513 @@ Unique constraint failed on the fields: (`email`)
     at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
     at Generator.next (<anonymous>)
     at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-07-31 13:27:19 [error] []: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:11:19
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:4:12)
+    at createOrder (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:14:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+2024-07-31 22:57:13 [error] []: Error: Menu with id 3 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-07-31 22:57:13 [error] []: Error: Menu with id 3 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-07-31 22:57:13 [error] []: Error: Menu with id 3 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-07-31 22:57:21 [error] []: Error: Menu with id 14 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-07-31 22:57:21 [error] []: Error: Menu with id 14 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-07-31 22:57:21 [error] []: Error: Menu with id 14 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-07-31 22:57:37 [error] []: Error: Menu with id 14 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-07-31 22:57:37 [error] []: Error: Menu with id 14 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-07-31 22:57:37 [error] []: Error: Menu with id 14 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 13:57:42 [error] []: TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:14:49
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:27:12)
+    at createOrder (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:50:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-01 14:00:51 [error] []: TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:14:49
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:27:12)
+    at createOrder (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:50:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-01 14:01:02 [error] []: TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:14:49
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:27:12)
+    at createOrder (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:50:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-01 14:02:31 [error] []: TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:14:49
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:27:12)
+    at createOrder (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:50:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-01 14:09:36 [error] []: TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:15:49
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:27:12)
+    at createOrder (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:50:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-01 14:10:09 [error] []: TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:15:49
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:27:12)
+    at createOrder (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:50:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-01 14:10:38 [error] []: TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:15:49
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:27:12)
+    at createOrder (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:50:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-01 14:53:12 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 14:53:12 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 14:53:12 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 14:53:30 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:77:45
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:27:12)
+    at updateMenu (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:102:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:28:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-01 14:53:38 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:77:45
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:27:12)
+    at updateMenu (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/menu.controller.ts:102:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:28:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-01 14:54:28 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 14:54:28 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 14:54:28 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 14:54:32 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 14:56:33 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 14:56:43 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 15:16:52 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 15:52:45 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 16:47:17 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 16:55:03 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 17:05:55 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 17:08:08 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 17:14:22 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 17:28:28 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 17:45:49 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 20:06:04 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-01 21:02:22 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-02 07:16:22 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 07:22:28 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 9,
+           menu_id: 10,
+           payment_status: "apple",
+                           ~~~~~~~
+           delivery_status: "PENDING"
+         }
+       })
+
+Invalid value for argument `payment_status`. Expected payment_status.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 07:23:49 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 9,
+           menu_id: 10,
+           payment_status: "apple",
+                           ~~~~~~~
+           delivery_status: "PENDING"
+         }
+       })
+
+Invalid value for argument `payment_status`. Expected payment_status.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 22:44:22 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 9,
+           menu_id: 10,
+           payment_status: "PAID",
+           delivery_status: "PAID"
+                            ~~~~~~
+         }
+       })
+
+Invalid value for argument `delivery_status`. Expected delivery_status.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 22:47:09 [error] []: SyntaxError: Expected double-quoted property name in JSON at position 21
+    at JSON.parse (<anonymous>)
+    at parse (/Users/lekha/Desktop/Tasty Tap/server/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/Users/lekha/Desktop/Tasty Tap/server/node_modules/raw-body/index.js:238:16)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/lekha/Desktop/Tasty Tap/server/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+2024-08-02 22:47:11 [error] []: SyntaxError: Expected double-quoted property name in JSON at position 21
+    at JSON.parse (<anonymous>)
+    at parse (/Users/lekha/Desktop/Tasty Tap/server/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/Users/lekha/Desktop/Tasty Tap/server/node_modules/raw-body/index.js:238:16)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/lekha/Desktop/Tasty Tap/server/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:52:32 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:54:38 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:55:12 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:55:12 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:55:12 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:55:50 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:55:50 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:55:50 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:57:57 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:58:38 [error] []: TypeError: Cannot read properties of undefined (reading 'id')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:16:49
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:27:12)
+    at createOrder (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/order.controller.ts:50:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 22:59:27 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-02 23:00:35 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:00:35 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:00:35 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:00:35 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:00:35 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:00:35 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:00:35 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:00:35 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:00:35 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:10:23
+
+   7 
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+→ 10   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:03:25 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:03:25 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:03:25 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:03:25 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:03:25 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:03:25 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:03:25 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:03:25 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:03:25 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:08 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:08 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:08 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:08 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:08 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:08 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:08 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:08 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:08 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:41 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:41 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:41 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:41 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:41 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:41 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:41 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:41 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:05:41 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:06:18 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:06:18 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:06:20 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:06:30 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:07:10 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:07:26 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:09:53 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: undefined,
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1,
+       +   user: {
+       +     create: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+       +     connectOrCreate: UserCreateOrConnectWithoutOrdersInput,
+       +     connect: UserWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `user` is missing.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:11:06 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: "10",
+                    ~~~~
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1
+         }
+       })
+
+Argument `menu_id`: Invalid value provided. Expected Int, provided String.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-02 23:11:06 [error] []: Error: Error while creating order: PrismaClientValidationError: 
+Invalid `prisma.order.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/order.model.ts:11:23
+
+   8 export function createOrder(order: IOrder) {
+   9   const { user_id, menu_id, payment_status, delivery_status, quantity } = order;
+  10   console.log('order from model', order);
+→ 11   return prisma.order.create({
+         data: {
+           user_id: 21,
+           menu_id: "10",
+                    ~~~~
+           payment_status: undefined,
+           delivery_status: undefined,
+           quantity: 1
+         }
+       })
+
+Argument `menu_id`: Invalid value provided. Expected Int, provided String.
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:14:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:29:65)
+2024-08-03 08:22:16 [error] []: Error: Menu with id 11 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-03 12:52:08 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-03 17:20:06 [error] []: Error: Orders not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:38:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:28:58)
+2024-08-03 17:20:31 [error] []: Error: Orders not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:38:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:28:58)
+2024-08-03 17:20:52 [error] []: Error: Orders not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:38:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:28:58)
+2024-08-03 17:20:54 [error] []: Error: Orders not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:38:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/order.service.ts:28:58)
+2024-08-04 00:28:12 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-04 00:28:12 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-04 00:28:17 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-04 00:28:17 [error] []: Error: Token not found
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:16:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-04 15:17:35 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:15:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at createUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:48:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-08-04 15:17:37 [error] []: TypeError: Cannot read properties of undefined (reading '0')
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:15:57
+    at Generator.next (<anonymous>)
+    at /Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:27:12)
+    at createUser (/Users/lekha/Desktop/Tasty Tap/server/src/controllers/user.controller.ts:48:12)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at done (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/lekha/Desktop/Tasty Tap/server/node_modules/multer/lib/make-middleware.js:49:68)
+2024-08-04 16:22:31 [error] []: Error: Menu with id 3 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-04 16:22:31 [error] []: Error: Menu with id 3 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-04 16:22:31 [error] []: Error: Menu with id 3 not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:32:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/menu.service.ts:28:58)
+2024-08-04 16:53:31 [error] []: Error: Error while creating review: PrismaClientKnownRequestError: 
+Invalid `prisma.review.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/review.model.ts:7:24
+
+  4 export function createReview(reviewData: IReview) {
+  5   const { user_id, menu_id, review, rating, sentiment } = reviewData;
+  6 
+→ 7   return prisma.review.create(
+Foreign key constraint failed on the field: `Review_menu_id_fkey (index)`
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:46:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:29:65)
+2024-08-04 16:53:33 [error] []: Error: Error while creating review: PrismaClientKnownRequestError: 
+Invalid `prisma.review.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/review.model.ts:7:24
+
+  4 export function createReview(reviewData: IReview) {
+  5   const { user_id, menu_id, review, rating, sentiment } = reviewData;
+  6 
+→ 7   return prisma.review.create(
+Foreign key constraint failed on the field: `Review_menu_id_fkey (index)`
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:46:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:29:65)
+2024-08-04 16:53:33 [error] []: Error: Error while creating review: PrismaClientKnownRequestError: 
+Invalid `prisma.review.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/review.model.ts:7:24
+
+  4 export function createReview(reviewData: IReview) {
+  5   const { user_id, menu_id, review, rating, sentiment } = reviewData;
+  6 
+→ 7   return prisma.review.create(
+Foreign key constraint failed on the field: `Review_menu_id_fkey (index)`
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:46:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:29:65)
+2024-08-04 16:54:11 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:60:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-08-04 16:54:35 [error] []: Error: Error while creating review: PrismaClientKnownRequestError: 
+Invalid `prisma.review.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/review.model.ts:7:24
+
+  4 export function createReview(reviewData: IReview) {
+  5   const { user_id, menu_id, review, rating, sentiment } = reviewData;
+  6 
+→ 7   return prisma.review.create(
+Foreign key constraint failed on the field: `Review_menu_id_fkey (index)`
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:46:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:29:65)
+2024-08-04 17:04:48 [error] []: Error: Error while creating review: PrismaClientKnownRequestError: 
+Invalid `prisma.review.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/review.model.ts:7:24
+
+  4 export function createReview(reviewData: IReview) {
+  5   const { user_id, menu_id, review, rating, sentiment } = reviewData;
+  6 
+→ 7   return prisma.review.create(
+Foreign key constraint failed on the field: `Review_menu_id_fkey (index)`
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:46:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:29:65)
+2024-08-04 17:05:56 [error] []: Error: Error while creating review: PrismaClientKnownRequestError: 
+Invalid `prisma.review.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/review.model.ts:7:24
+
+  4 export function createReview(reviewData: IReview) {
+  5   const { user_id, menu_id, review, rating, sentiment } = reviewData;
+  6 
+→ 7   return prisma.review.create(
+Foreign key constraint failed on the field: `Review_menu_id_fkey (index)`
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:46:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:29:65)
+2024-08-04 22:03:45 [error] []: Error: Error while creating review: PrismaClientKnownRequestError: 
+Invalid `prisma.review.create()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/review.model.ts:7:24
+
+  4 export function createReview(reviewData: IReview) {
+  5   const { user_id, menu_id, review, rating, sentiment } = reviewData;
+  6 
+→ 7   return prisma.review.create(
+Foreign key constraint failed on the field: `Review_menu_id_fkey (index)`
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:46:11)
+    at Generator.throw (<anonymous>)
+    at rejected (/Users/lekha/Desktop/Tasty Tap/server/src/services/review.service.ts:29:65)
+2024-08-04 22:05:44 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-05 04:05:38 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+2024-08-05 04:10:55 [error] []: PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/users.model.ts:54:22
+
+  51 }
+  52 
+  53 export function getUserById(id: number) {
+→ 54   return prisma.user.findUnique({
+         where: {
+       +   id: Int
+         },
+         select: {
+           id: true,
+           username: true,
+           email: true,
+           full_name: true,
+           profile_picture: true,
+           contact: true,
+           address: true
+         }
+       })
+
+Argument `id` is missing.
+    at An (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:114:7526)
+    at _n.handleRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7392)
+    at _n.handleAndLogRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7057)
+    at _n.request (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:6741)
+    at async l (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:130:9355)
+2024-08-05 04:12:06 [error] []: PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/users.model.ts:55:22
+
+  52 
+  53 export function getUserById(id: number) {
+  54   console.log("model", id);
+→ 55   return prisma.user.findUnique({
+         where: {
+       +   id: Int
+         },
+         select: {
+           id: true,
+           username: true,
+           email: true,
+           full_name: true,
+           profile_picture: true,
+           contact: true,
+           address: true
+         }
+       })
+
+Argument `id` is missing.
+    at An (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:114:7526)
+    at _n.handleRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7392)
+    at _n.handleAndLogRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7057)
+    at _n.request (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:6741)
+    at async l (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:130:9355)
+2024-08-05 04:12:30 [error] []: PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/users.model.ts:55:22
+
+  52 
+  53 export function getUserById(id: number) {
+  54   console.log("model", id);
+→ 55   return prisma.user.findUnique({
+         where: {
+       +   id: Int
+         },
+         select: {
+           id: true,
+           username: true,
+           email: true,
+           full_name: true,
+           profile_picture: true,
+           contact: true,
+           address: true
+         }
+       })
+
+Argument `id` is missing.
+    at An (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:114:7526)
+    at _n.handleRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7392)
+    at _n.handleAndLogRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7057)
+    at _n.request (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:6741)
+    at async l (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:130:9355)
+2024-08-05 04:12:57 [error] []: Error: Unauthenticated
+    at authenticate (/Users/lekha/Desktop/Tasty Tap/server/src/middlewares/auth.middleware.ts:30:11)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:421:3)
+    at next (/Users/lekha/Desktop/Tasty Tap/server/node_modules/express/lib/router/index.js:280:10)
+2024-08-05 04:30:05 [error] []: PrismaClientKnownRequestError: 
+Invalid `prisma.user.delete()` invocation in
+/Users/lekha/Desktop/Tasty Tap/server/src/models/users.model.ts:87:28
+
+  84 
+  85 //delete account
+  86 export function deleteUser(email: string) {
+→ 87   return prisma.user.delete(
+Foreign key constraint failed on the field: `Order_user_id_fkey (index)`
+    at _n.handleRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7749)
+    at _n.handleAndLogRequestError (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:7057)
+    at _n.request (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:121:6741)
+    at async l (/Users/lekha/Desktop/Tasty Tap/server/node_modules/@prisma/client/runtime/library.js:130:9355)
+2024-08-05 04:35:41 [error] []: Error: User with email shayan@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:107:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-08-05 04:36:15 [error] []: Error: User with email shayan@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:107:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-08-05 04:41:12 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:60:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-08-05 04:41:17 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:60:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-08-05 04:41:23 [error] []: Error: Incorrect password
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:60:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-08-05 04:42:10 [error] []: Error: User with email cup@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:106:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)
+2024-08-05 04:43:25 [error] []: Error: User with email bottle@gmail.com not found
+    at Object.<anonymous> (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:106:11)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/lekha/Desktop/Tasty Tap/server/src/services/user.service.ts:28:58)

@@ -1,1 +1,48 @@
-<p>This is orders page</p>
+<section id="orders" class="flex flex-col gap-4 p-4 overflow-scroll">
+  <h1 class="text-3xl font-semibold text-neutral-700 mb-4">Orders</h1>
+  <div class="flex gap-4 justify-center max-h-[calc(100vh-175px)] overflow-scroll">
+    <table
+      class="border-collapse w-full bg-yellow-50 text-neutral-700 rounded-lg border border-neutral-300 text-left p-2 h-fit relative"
+    >
+      <thead class="sticky top-0 z-10">
+        <tr class="border-b-2 text-neutral-700 bg-yellow-200">
+          <th class="py-2 px-4">ID</th>
+          <th class="py-2 px-4">User</th>
+          <th class="py-2 px-4">Product</th>
+          <th class="py-2 px-4">Quantity</th>
+          <th class="py-2 px-4">Delivery</th>
+          <th class="py-2 px-4">Payment</th>
+          <th class="py-2 px-4">Address</th>
+        </tr>
+      </thead>
+      <tbody id="admin-orders" class="p-4">
+        <tr class="border-b">
+          <td class="py-2 px-4">1</td>
+          <td class="py-2 px-4">Shayan</td>
+          <td class="py-2 px-4">Momo</td>
+          <td class="p-4">2</td>
+          <td class="py-2 px-4">
+            <select
+              id="delivery-status"
+              class="bg-white px-4 py-2 rounded-lg text-yellow-500 border border-yellow-500"
+            >
+              <option value="PENDING">Pending</option>
+              <option value="DISPATCHED">Dispatched</option>
+              <option value="DELIVERED">Delivered</option>
+            </select>
+          </td>
+          <td class="py-2 px-4">
+            <select
+              id="payment-status"
+              class="bg-white px-4 border border-rounded-full border-green-500 text-green-500 py-2 rounded-lg"
+            >
+              <option value="PENDING">Pending</option>
+              <option value="PAID">Paid</option>
+            </select>
+          </td>
+          <td class="py-2 px-4">Bhaisepati, Kathmandu</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

@@ -54,6 +54,7 @@ export class Router {
           if (subRoute) {
             const markup = await subRoute.component.load();
             document.getElementById("main-content")!.innerHTML = markup;
+            subRoute.component.initEventListners();
           } else {
             document.getElementById("main-content")!.innerHTML =
               await notFound.load();

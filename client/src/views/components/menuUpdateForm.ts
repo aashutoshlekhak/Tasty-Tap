@@ -4,7 +4,7 @@ export default function updateMenuForm(menu: IMenu) {
   const markup = `
         <section
         id="menu-details"
-        class="w-full min-h[calc(100vh-85px)] flex items-center justify-center"
+        class="w-full min-h[calc(100vh-85px)] flex items-center justify-center gap-12"
         >
         <div
             class="flex flex-col text-gray-700 p-4 border-dashed border border-neutral-500 rounded-lg bg-yellow-50"
@@ -101,6 +101,16 @@ export default function updateMenuForm(menu: IMenu) {
                 Update Menu Item
             </button>
             </form>
+        </div>
+        <div class="flex flex-col items-center">
+            <input type="text" class="menu-review border rounded-md" />
+            <div class="reviews flex flex-col gap-5">
+                
+                <div class="review mt-4 w-full rounded-lg px-16 py-4 bg-blue-500">
+                    <p class="review text text-white text-sm font-semibold">review</p>
+                </div>
+            </div>
+        
         </div>
         </section>
     `;
