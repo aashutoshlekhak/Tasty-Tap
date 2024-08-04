@@ -83,9 +83,7 @@ export function generateCustomerInfoRow(customerData: ICustomer) {
         </div>
         </div>
     </div>
-    
-    
-    
-    
+
     `;
+  return markup;
 }

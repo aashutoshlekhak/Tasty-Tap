@@ -53,8 +53,8 @@ model Order {
   quantity Int @default(1)
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
-  user User @relation(fields: [user_id], references: [id])
-  menu_items menu_items @relation(fields: [menu_id], references: [id])
+  user User @relation(fields: [user_id], references: [id], onDelete: Cascade) 
+  menu_items menu_items @relation(fields: [menu_id], references: [id], onDelete: Cascade)
 }
 
 model Review {
@@ -63,8 +63,8 @@ model Review {
   menu_id Int
   review String
   rating Int @default(3)
-  user User @relation(fields: [user_id], references: [id])
-  menu_items menu_items @relation(fields: [menu_id], references: [id])
+  user User @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  menu_items menu_items @relation(fields: [menu_id], references: [id], onDelete: Cascade)
   sentiment review_sentiment @default(NEUTRAL)
 }
 

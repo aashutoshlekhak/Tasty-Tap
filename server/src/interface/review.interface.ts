@@ -4,7 +4,7 @@ export interface IReview {
   menu_id: number;
   review: string;
   rating: number;
-  sentiment: review_sentiment;
+  sentiment: review_sentiment
 }
 
 export enum review_sentiment {
@@ -12,3 +12,5 @@ export enum review_sentiment {
   NEGATIVE = "NEGATIVE",
   NEUTRAL = "NEUTRAL",
 }
+
+export type IReviewPayload = Pick<IReview, "user_id" | "review" | "menu_id">;

@@ -1,3 +1,4 @@
+import { Analytics } from "../scripts/analytics";
 import { AdminOrders } from "../scripts/orderPage";
 import { AdminUsers } from "../scripts/usersPage";
 
@@ -54,5 +55,9 @@ export class analytics {
     const response = await fetch("src/views/pages/admin/analytics.html");
     const markup = await response.text();
     return response.ok ? markup : "Error loading analytics";
+  };
+
+  static initEventListners = async () => {
+    Analytics.load();
   };
 }

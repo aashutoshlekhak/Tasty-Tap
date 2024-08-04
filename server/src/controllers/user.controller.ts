@@ -59,6 +59,20 @@ export async function getAllUsers(
   }
 }
 
+export async function getUserById(
+  req: AuthRequest,
+  res: Response,
+  next: NextFunction
+) {
+  try {
+    const id = parseInt(req.params.id);
+    const user = await UserService.getUserById(id);
+    res.status(HttpStatusCodes.OK).json(user);
+  } catch (error) {
+    next(error);
+  }
+}
+
 export async function updateUser(
   req: AuthRequest,
   res: Response,
@@ -84,6 +98,20 @@ export async function deleteUser(
   try {
     const email = req.user.email;
     const deletedUser = await UserService.deleteUser(email);
+    res.status(HttpStatusCodes.OK).json(deletedUser);
+  } catch (error) {
+    next(error);
+  }
+}
+
+export async function deleteUserById(
+  req: AuthRequest,
+  res: Response,
+  next: NextFunction
+) {
+  try {
+    const id = parseInt(req.params.id);
+    const deletedUser = await UserService.deleteUserById(id);
     res.status(HttpStatusCodes.OK).json(deletedUser);
   } catch (error) {
     next(error);
